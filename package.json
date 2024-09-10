@@ -1,6 +1,7 @@
 {
-	"name": "@calvin/svelte-arrow-nav",
-	"version": "0.0.1",
+	"name": "@calvinbonner/svelte-arrow-nav",
+  "author": "Calvin Bonner <me@calvinbonner.com>",
+	"version": "0.0.2",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
@@ -15,9 +16,11 @@
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
-			"svelte": "./dist/index.js"
+			"svelte": "./dist/index.js",
+      "license": "./LICENSE"
 		}
 	},
+  "license": "MIT",
 	"files": [
 		"dist",
 		"!dist/**/*.test.*",
@@ -26,6 +29,9 @@
 	"peerDependencies": {
 		"svelte": "^4.0.0"
 	},
+  "repository": {
+    "git": "https://github.com/computergnome99/svelte-arrow-nav"
+  },
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.0.0",
